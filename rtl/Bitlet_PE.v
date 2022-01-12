@@ -19,7 +19,6 @@ module Bitlet_PE
 (
     input                               clk,
     input                               rst_n,
-    input   [$clog2(N_total)-1:0]       N_calculate,// Number of inputs to calculate,-1
     input                               isfix,      // active high, stable
     input                               relu,       // active high, stable
     input   [`Wid_quant-1:0]            quant,      // quantization, 24~0, SPI
@@ -64,7 +63,6 @@ Bitlet_Calculator #(.N_total(N_total)) UCALCULATOR
 (
     .clk(clk),
     .rst_n(rst_n),
-    .N_calculate(N_calculate),
     .prune(prune),
     .flush(flush),
     .Wabs_vld(Wabs_vld),

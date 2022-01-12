@@ -4,7 +4,7 @@
  * Discription: Core module for Bitlet algorithm, to search for 1s in aligned W.abs and provide their index one per cycle.
  * Dependency:  
  * 
- * Author:      ZHU Zi-Xuan (UESTC) & LI Cheng-Long (UESTC), 2021.02
+ * Author:      ZHU Zi-Xuan & LI Cheng-Long (UESTC), 2021.02
  */
 
 `timescale 1ns / 1ps
